@@ -28,8 +28,6 @@ const PaymentProcessor = ({ amount, contrato, walletUser, walletEmpresa, onSucce
     };
 
     return (
-        //error button
-    
         <Button label="Confirmar Pago" onClick={handlePayment} />
     );
 };
